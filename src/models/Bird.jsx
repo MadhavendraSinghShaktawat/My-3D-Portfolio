@@ -27,7 +27,7 @@ const Bird = () => {
       birdRef.current.rotation.y = 0;
     }
 
-    // Update the X and Z positions based on the direction
+    // Update the X and Z positions based on the direction.
     if (birdRef.current.rotation.y === 0) {
       // Moving forward
       birdRef.current.position.x += 0.01;
